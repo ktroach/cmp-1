@@ -251,7 +251,7 @@ def load_user(id):
 #     parent_id = Column(Integer, ForeignKey('parent.id'))
 #     parent = relationship("Parent", back_populates="child")
     
-
+#  TODO: Refactor - Move individual models to seperate modules instead of one monolithic module
 class ApplicantForm(PaginatedAPIMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(128))
@@ -293,7 +293,46 @@ class ApplicantForm(PaginatedAPIMixin, db.Model):
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
 
     def from_dict(self, data):
-        for field in ['first_name', 'last_name', 'email']:
+        fields = [
+            'first_name',
+            'middle_name',
+            'last_name',
+            'maiden_name',
+            'email',
+            'address_1',
+            'address_2',
+            'city',
+            'stateprovince',
+            'zipcode',
+            'home_phone',
+            'cell_phone',
+            'gender',
+            'date_of_birth',
+            'citizenship_status',
+            'citizenship_country',
+            'marital_status',
+            'date_of_marriage',
+            'convicted_offense',
+            'convictions_explained',
+            'how_did_you_hear_about_us',
+            'high_school_attended',
+            'highest_level_of_education_completed',
+            'date_of_completion',
+            'school_1_name',
+            'school_1_start_date',
+            'school_1_end_date',
+            'school_2_name',
+            'school_2_start_date',
+            'school_2_end_date',
+            'school_3_name',
+            'school_3_start_date',
+            'school_3_end_date',
+            'can_read_write_english',
+            'current_employer',
+            'current_position'
+        ]
+
+        for field in fields:
             if field in data:
                 setattr(self, field, data[field])   
 
