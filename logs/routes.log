@@ -604,3 +604,9 @@ INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:45] "[37mGET /auth/login HTTP/1.
 INFO:flask.app:CMP startup
 INFO:flask.app:CMP startup
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flask.app:CMP startup
+INFO:flask.app:CMP startup
+INFO:flask.app:CMP startup
+INFO:flask.app:CMP startup
+INFO:flask.app:CMP startup
+INFO:flask.app:CMP startup

@@ -250,10 +250,34 @@ def load_user(id):
 #     id = Column(Integer, primary_key=True)
 #     parent_id = Column(Integer, ForeignKey('parent.id'))
 #     parent = relationship("Parent", back_populates="child")
+
+
+class School(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    school_name = db.Column(db.String(128))
+    school_description = db.Column(db.String(128))
+    school_type = db.Column(db.String(128))
+    date_founded = db.Column(db.String(128))
+    phone_number = db.Column(db.String(128))
+    email = db.Column(db.String(120), index=True, unique=True)
+    address_1 = db.Column(db.String(128))
+    address_2 = db.Column(db.String(128))
+    city = db.Column(db.String(128))
+    stateprovince = db.Column(db.String(128))
+    zipcode = db.Column(db.String(128))    
+    accrediting_organization = db.Column(db.String(128))
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    # president = db.Column(db.String(128))
+    # vice_president = db.Column(db.String(128))
+    # director = db.Column(db.String(128))
+    # secretary = db.Column(db.String(128))
+
+# TODO: Faculty Model
     
 #  TODO: Refactor - Move individual models to seperate modules instead of one monolithic module
 class ApplicantForm(PaginatedAPIMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    school_id = db.Column(db.Integer, db.ForeignKey('school.id'))
     first_name = db.Column(db.String(128))
     middle_name = db.Column(db.String(128))
     last_name = db.Column(db.String(128))
@@ -294,6 +318,7 @@ class ApplicantForm(PaginatedAPIMixin, db.Model):
 
     def from_dict(self, data):
         fields = [
+            'school_id',
             'first_name',
             'middle_name',
             'last_name',
