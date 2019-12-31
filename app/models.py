@@ -364,9 +364,42 @@ class ApplicantForm(PaginatedAPIMixin, db.Model):
     def to_dict(self):
         data = {
             'id': self.id,
+            'school_id': self.school_id,
             'first_name': self.first_name,
+            'middle_name': self.middle_name,
             'last_name': self.last_name,
             'email': self.email
+            'address_1': self.address_1
+            'address_2': self.address_2
+            'city': self.city
+            'stateprovince': self.stateprovince
+            'zipcode': self.zipcode
+            'home_phone': self.home_phone
+            'cell_phone': self.cell_phone
+            'gender': self.gender
+            'date_of_birth': self.date_of_birth
+            'citizenship_status': self.citizenship_status
+            'citizenship_country': self.citizenship_country
+            'marital_status': self.marital_status
+            'date_of_marriage': self.date_of_marriage
+            'convicted_offense': self.convicted_offense
+            'convictions_explained': self.convictions_explained
+            'how_did_you_hear_about_us': self.how_did_you_hear_about_us
+            'high_school_attended': self.high_school_attended
+            'highest_level_of_education_completed': self.highest_level_of_education_completed
+            'date_of_completion': self.date_of_completion
+            'school_1_name': self.school_1_name
+            'school_1_start_date': self.school_1_start_date
+            'school_1_end_date': self.school_1_end_date
+            'school_2_name': self.school_2_name
+            'school_2_start_date': self.school_2_start_date
+            'school_2_end_date': self.school_2_end_date
+            'school_3_name': self.school_3_name
+            'school_3_start_date': self.school_3_start_date
+            'school_3_end_date': self.school_3_end_date
+            'can_read_write_english': self.can_read_write_english
+            'current_employer': self.current_employer
+            'current_position': self.current_position
         }
         return data            
 
