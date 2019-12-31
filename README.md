@@ -16,7 +16,7 @@ This project was inspired by a tutorial project created by Miguel Grinberg. Migu
 Take a peek at the setup.sh file in this project to get instructions on setting up and running this project after you git clone it.
 
 #### Database
-I use a Postgres database hosted on AWS RDS. You will need to change the database URL in your alembic.ini to connect to a database that you have setup.  The config.py supports a SQL Lite database for running locally and debugging.  
+I use a Postgres database hosted on AWS RDS. You will need to change the database URL in your `.env` file to connect to your own database. The config.py contains the SQLALCHEMY_DATABASE_URI property that points to the respective database that is set in the .env file. The alembic.ini will refer to the SQLALCHEMY_DATABASE_URI for making connection and mapping to the database objects. The database URL can be set to a local SQL Lite database for running locally and debugging.  
 
 #### Deployment 
 This project includes a Heroku Procfile deployment configuration. You could also deploy this application using the Python AWS EB CLI to an Elastic Beanstalk EC2 instance.
