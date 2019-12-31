@@ -1,0 +1,18 @@
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:38] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:39] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:45] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:45] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:56] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+DEBUG:root:new_applicant_form.id
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:26:59] "[32mPOST /new_applicant HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:00] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:11] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:21] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:27:30] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -

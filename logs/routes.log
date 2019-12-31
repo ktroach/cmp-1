@@ -1,0 +1,606 @@
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:07] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:09] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:15] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:16] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:27] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:29] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+DEBUG:root:new_applicant_form.id
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:29] "[32mPOST /new_applicant HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:30] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:39] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:29:41] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:14] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:19] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:20] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:31] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+DEBUG:root:new_applicant_form.id: 14
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:36] "[32mPOST /new_applicant HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:36] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:31:47] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:00] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:06] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:07] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:18] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+DEBUG:root:new_applicant_form.id: 15
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:22] "[32mPOST /new_applicant HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:23] "[37mGET /index?new_applicant_id=15 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:34] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:44] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:54] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:44:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:04] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:14] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:22] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:24] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:34] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:44] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:55] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:45:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:06] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:09] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:17] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:28] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:39] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:50] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:46:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:01] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:12] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:22] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:23] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:39] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:39] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:49] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:47:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:00] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:19] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:19] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:24] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:25] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+DEBUG:root:new_applicant >>> new_applicant_form.id: 16
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:35] "[32mPOST /new_applicant HTTP/1.1[0m" 302 -
+DEBUG:root:main.index >>> new_applicant_id: 16
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:36] "[37mGET /index?new_applicant_id=16 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:46] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 13:48:56] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:main.index >>> new_applicant_id: 16
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:02:49] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:02:49] "[37mGET /index?new_applicant_id=16 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:02:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:00] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 35, in new_applicant
+    form = NewApplicantForm()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_email'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:00] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 35, in new_applicant
+    form = NewApplicantForm()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_email'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:02] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:13] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:23] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:33] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:43] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:53] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:03:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:04:03] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:04:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:09] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:10] "[37mGET /index HTTP/1.1[0m" 200 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 35, in new_applicant
+    form = NewApplicantForm()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 3 required positional arguments: 'first_name', 'last_name', and 'email'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:15] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 35, in new_applicant
+    form = NewApplicantForm()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 3 required positional arguments: 'first_name', 'last_name', and 'email'
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:17] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:28] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:38] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:48] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:58] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:07:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:08] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:26] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:37] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:48] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:08:59] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:10] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:21] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:32] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:43] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:54] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:09:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:05] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:17] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:28] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:45] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:56] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:10:58] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:07] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:18] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:28] "[37mGET /index HTTP/1.1[0m" 200 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 35, in new_applicant
+    form = NewApplicantForm('','','')
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() takes from 1 to 2 positional arguments but 4 were given
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:34] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 35, in new_applicant
+    form = NewApplicantForm('','','')
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/wtforms/form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() takes from 1 to 2 positional arguments but 4 were given
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:35] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:46] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:11:56] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:04] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:08] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:09] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:10] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:20] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:30] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:39] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:40] "[37mPOST /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:12:51] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 47, in new_applicant
+    return render_template('new_applicant.html', title=_('New Applicant'), form=form)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/templates/new_applicant.html", line 1, in top-level template code
+    {% extends "base.html" %}
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:19] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+ERROR:flask.app:Exception on /new_applicant [GET]
+Traceback (most recent call last):
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/main/routes.py", line 47, in new_applicant
+    return render_template('new_applicant.html', title=_('New Applicant'), form=form)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/venv/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/kyleroach/bobofett-dev/microcmp/cmp/app/templates/new_applicant.html", line 1, in top-level template code
+    {% extends "base.html" %}
+jinja2.exceptions.TemplateRuntimeError: extended multiple times
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:20] "[1m[35mGET /new_applicant HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:30] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:40] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:22:50] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:25:47] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:25:47] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:25:48] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:30:17] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:30:18] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:30:27] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:30:28] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:30:37] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:30:38] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:08] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:14] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:15] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:26] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:29] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:36] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:40] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:46] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:47:56] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:06] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:16] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+DEBUG:root:main.index >>> new_applicant_id: 1
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:20] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:26] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:30] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:36] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:46] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:48:56] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:31] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:34] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:45] "[37mGET /notifications?since=0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:49:55] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:05] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:15] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:25] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:35] "[37mGET /notifications?since=1575397708.85139 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:43] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:43] "[32mGET /index HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:43] "[37mGET /auth/login?next=%2Findex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:52] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:53] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:57] "[32mGET /index HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:57] "[37mGET /auth/login?next=%2Findex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:58] "[32mGET /index HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:50:58] "[37mGET /auth/login?next=%2Findex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:05] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:06] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:51:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:52:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:52:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:52:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:52:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:52:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:52:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:53:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:53:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:53:23] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:53:31] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:53:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:53:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:54:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:54:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:54:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:54:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:54:41] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:54:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:55:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:55:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:55:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:55:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:55:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:55:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:56:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:56:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:56:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:56:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:56:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:56:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:57:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:57:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:57:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:57:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:57:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:57:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:58:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:58:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:58:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:58:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:58:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:58:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:59:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:59:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:59:23] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:59:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:59:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 14:59:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:00:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:00:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:00:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:00:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:00:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:00:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:01:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:01:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:01:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:01:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:01:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:01:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:02:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:03:20] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:03:22] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:03:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:03:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:03:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:04:01] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:04:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:04:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:04:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:04:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:04:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:05:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:05:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:05:23] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:05:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:05:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:05:51] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:06:01] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:06:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:06:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:06:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:06:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:06:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:07:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:07:11] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:07:20] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:07:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:07:41] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:07:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:08:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:08:15] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:08:22] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:08:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:08:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:08:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:00] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:11] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:24] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:32] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:40] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:09:51] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:01] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:10] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:19] "[37mGET /new_applicant HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:26] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:30] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:44] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Dec/2019 15:10:50] "[37mGET /notifications?since=1575397649.70776 HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:25] "[33mGET /service-worker.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:25] "[33mGET /manifest.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:25] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:25] "[37mGET /auth/login?next=%2F HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:38] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:38] "[37mGET /auth/login?next=%2F HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:41] "[32mGET /index HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:41] "[37mGET /auth/login?next=%2Findex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:43] "[32mGET /index HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:43] "[37mGET /auth/login?next=%2Findex HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2019 10:16:45] "[37mGET /auth/login HTTP/1.1[0m" 200 -
+INFO:flask.app:CMP startup
+INFO:flask.app:CMP startup
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
