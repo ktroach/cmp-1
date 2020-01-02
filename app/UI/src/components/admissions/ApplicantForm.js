@@ -23,6 +23,22 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
     const [degreeProgramSelect, setDegreeProgramSelect] = useState('');
 
     const [firstName, setFirstName] = useState('');
+    const [middleName, setMiddleName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [maidenName, setMaidenName] = useState('');
+    const [primaryEmail, setPrimaryEmail] = useState('');
+    const [homePhone, setHomePhone] = useState('');
+    const [cellPhone, setCellPhone] = useState('');
+    const [address1, setAddress1] = useState('');
+    const [address2, setAddress2] = useState('');
+    const [city, setCity] = useState('');    
+    const [stateProv, setStateProv] = useState('');    
+    const [zip, setZip] = useState('');    
+    const [genderSelect, setGenderSelect] = useState('');    
+    const [dateOfBirth, setDateOfBirth] = useState('');    
+    const [citizenShipSelect, setCitizenShipSelect] = useState('');    
+    const [citizenShipCountry, setCitizenShipCountry] = useState('');    
+
 
     const [highSchoolAttended, setHighSchoolAttended] = useState('');
     const [dateOfCompletion, setDateOfCompletion] = useState('');    
@@ -101,12 +117,17 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
     const [referencesPersonalZip, setReferencesPersonalZip] = useState('');
     const [referencesPersonalKnown, setReferencesPersonalKnown] = useState('');    
 
+    const [reasonsForApplying, setReasonsForApplying] = useState('');    
+
     const [briefTestimony, setBriefTestimony] = useState('');
     const [spiritualGrowth, setSpiritualGrowth] = useState('');    
 
     const handleSubmit = e => {
         e.preventDefault();
+        // alert("handleSubmit")
         const updates = {
+          "school_id": "1", 
+          "first_name": firstName,
 
         };
         submitRequest();
@@ -361,53 +382,53 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
                 </FormGroup>
                 <FormGroup>
                     <Label for="middleName">Middle Name</Label>
-                    <Input type="text" name="middleName" id="middleName" placeholder="" />
+                    <Input type="text" name="middleName" id="middleName" placeholder="" value={middleName} onChange={({ target }) => setMiddleName(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="lastName">Last Name</Label>
-                    <Input type="text" name="lastName" id="lastName" placeholder="" />
+                    <Input type="text" name="lastName" id="lastName" placeholder="" value={lastName} onChange={({ target }) => setLastName(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="maidenName">Maiden Name</Label>
-                    <Input type="text" name="maidenName" id="maidenName" placeholder="" />
+                    <Input type="text" name="maidenName" id="maidenName" placeholder="" value={maidenName} onChange={({ target }) => setMaidenName(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="primaryEmail">Email</Label>
-                    <Input type="email" name="primaryEmail" id="primaryEmail" placeholder="username@email.com" />
+                    <Input type="email" name="primaryEmail" id="primaryEmail" placeholder="username@email.com" value={primaryEmail} onChange={({ target }) => setPrimaryEmail(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="homePhone">Home Phone #</Label>
-                    <Input type="text" name="homePhone" id="homePhone" placeholder="" />
+                    <Input type="text" name="homePhone" id="homePhone" placeholder="" value={homePhone} onChange={({ target }) => setHomePhone(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="cellPhone">Cell Phone #</Label>
-                    <Input type="text" name="cellPhone" id="cellPhone" placeholder="" />
+                    <Input type="text" name="cellPhone" id="cellPhone" placeholder="" value={cellPhone} onChange={({ target }) => setCellPhone(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="address1">Address</Label>
-                    <Input type="text" name="address1" id="address1" placeholder="1234 Main St" />
+                    <Input type="text" name="address1" id="address1" placeholder="1234 Main St" value={address1} onChange={({ target }) => setAddress1(target.value)} />
                 </FormGroup>
                 <FormGroup>
                     <Label for="address2">Address 2</Label>
-                    <Input type="text" name="address2" id="address2" placeholder="Apartment, studio, or floor" />
+                    <Input type="text" name="address2" id="address2" placeholder="Apartment, studio, or floor" value={address2} onChange={({ target }) => setAddress2(target.value)} />
                 </FormGroup>
                 <Row form>
                     <Col md={6}>
                     <FormGroup>
                         <Label for="city">City</Label>
-                        <Input type="text" name="city" id="city" />
+                        <Input type="text" name="city" id="city" value={city} onChange={({ target }) => setCity(target.value)} />
                     </FormGroup>
                     </Col>
                     <Col md={4}>
                     <FormGroup>
-                        <Label for="state">State</Label>
-                        <Input type="text" name="state" id="state" />
+                        <Label for="stateProv">State</Label>
+                        <Input type="text" name="stateProv" id="stateProv" value={stateProv} onChange={({ target }) => setStateProv(target.value)} />
                     </FormGroup>
                     </Col>
                     <Col md={2}>
                     <FormGroup>
                         <Label for="zip">Zip</Label>
-                        <Input type="text" name="zip" id="zip" />
+                        <Input type="text" name="zip" id="zip" value={zip} onChange={({ target }) => setZip(target.value)} />
                     </FormGroup>
                     </Col>
                 </Row>
@@ -948,76 +969,31 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
             </Row>
         </TabPane>   
 
-
         <TabPane tabId="8">
             <Row>
                 <Col sm="12" style={{padding: 20}}>
-                    <p>Affirmations</p>
-                    <Button color="primary" block className="mt-3" disabled={isSubmitDisabled}>
+                    <Card className="mb-3">
+                      <CardBody className="fs--1">
+                        <CardTitle>Reason(s) for Applying. Answer the following question in your own words</CardTitle>
+                          <Row>
+                            <Col>
+                              <FormGroup>
+                                  <Label for="reasonsForApplying">Why do you want to attend Angelo Bible College?</Label>
+                                  <Input type="textarea" name="reasonsForApplying" id="reasonsForApplying" placeholder="" value={reasonsForApplying} onChange={({ target }) => setReasonsForApplying(target.value)} />
+                              </FormGroup>    
+                            </Col>
+                          </Row>
+                      </CardBody>
+                    </Card> 
+                    <hr />
+                    <p>By submitting this application, I certify that I have truthfully and accurately answered all questions contained in this application. I understand that falsification of any kind is grounds for refusal of my application or expulsion should falsehood be discovered after acceptance into the academic program.</p>
+                    <Button color="primary" block className="mt-3" onClick={handleSubmit}>
                         Submit Application
                     </Button>                    
                 </Col>
             </Row>
         </TabPane>                         
-
-
       </TabContent>
-
-
-
-
-      {/* <FormGroup>
-        {hasLabel && <Label>Name</Label>}
-        <Input placeholder={!hasLabel ? 'Name' : ''} value={name} onChange={({ target }) => setName(target.value)} />
-      </FormGroup>
-      <FormGroup>
-        {hasLabel && <Label>Email address</Label>}
-        <Input
-          placeholder={!hasLabel ? 'Email address' : ''}
-          value={email}
-          onChange={({ target }) => setEmail(target.value)}
-          type="email"
-        />
-      </FormGroup>
-      <div className="form-row">
-        <FormGroup className="col-6">
-          {hasLabel && <Label>Password</Label>}
-          <Input
-            placeholder={!hasLabel ? 'Password' : ''}
-            value={password}
-            onChange={({ target }) => setPassword(target.value)}
-            type="password"
-          />
-        </FormGroup>
-        <FormGroup className="col-6">
-          {hasLabel && <Label>Confirm Password</Label>}
-          <Input
-            placeholder={!hasLabel ? 'Confirm Password' : ''}
-            value={confirmPassword}
-            onChange={({ target }) => setConfirmPassword(target.value)}
-            type="password"
-          />
-        </FormGroup> 
-      </div> */}
-
-      {/* <CustomInput
-        id="customCheckTerms"
-        label={
-          <Fragment>
-            I accept the <Link to="#!">terms</Link> and <Link to="#!">privacy policy</Link>
-          </Fragment>
-        }
-        checked={isAccepted}
-        onChange={({ target }) => setIsAccepted(target.checked)}
-        type="checkbox"
-      />
-      <FormGroup>
-        <Button color="primary" block className="mt-3" disabled={isDisabled}>
-          Register
-        </Button>
-      </FormGroup> */}
-      {/* <Divider className="mt-4">or register with</Divider> */}
-
     </Form>
   );
 };
