@@ -38,6 +38,8 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
     const [dateOfBirth, setDateOfBirth] = useState('');    
     const [citizenShipSelect, setCitizenShipSelect] = useState('');    
     const [citizenShipCountry, setCitizenShipCountry] = useState('');    
+    const [maritalStatus, setMaritalStatus] = useState('');    
+    const [dateOfMarriage, setDateOfMarriage] = useState('');    
 
 
     const [highSchoolAttended, setHighSchoolAttended] = useState('');
@@ -124,17 +126,38 @@ const ApplicantForm = ({ setRedirect, setRedirectUrl, layout, hasLabel }) => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        // alert("handleSubmit")
         const updates = {
           "school_id": "1", 
           "first_name": firstName,
-
+          "middle_name": middleName,
+          "last_name": lastName,
+          "maiden_name": maidenName,
+          "email": primaryEmail, 
+          "address_1": address1, 
+          "address_2": address2, 
+          "city": city, 
+          "stateprovince": stateProv, 
+          "zipcode": zip, 
+          "home_phone": homePhone, 
+          "cell_phone": cellPhone, 
+          "gender": genderSelect, 
+          "date_of_birth": dateOfBirth, 
+          "citizenship_status": citizenShipSelect,
+          "citizenship_country": citizenShipCountry,
+          "high_school_attended": highSchoolAttended, 
+          "date_of_completion": dateOfCompletion
         };
-        submitRequest();
+        submitRequest(updates);
     };
 
     const submitRequest = async updates => {
-        console.log(">>> UPDATES >>> ", updates);
+        axios.post('https://cmp-master.herokuapp.com/api/applicants', updates)
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
     };
 
     useEffect(() => {
