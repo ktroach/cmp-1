@@ -13,6 +13,7 @@ from elasticsearch import Elasticsearch
 from redis import Redis
 import rq
 from config import Config
+from flask_cors import CORS
 
 db = SQLAlchemy()
 migrate = Migrate()
